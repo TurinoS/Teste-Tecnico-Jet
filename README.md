@@ -5,8 +5,8 @@ Planejamento do projeto:
 - Desktop
 
 - [x] Criação e estilização do container;
-- [ ] Criação e estilização do header da "tabela";
-- [ ] Criação e estilização das linhas com os dados;
+- [x] Criação e estilização do header da "tabela";
+- [x] Criação e estilização das linhas com os dados;
 
 - Mobile
 
