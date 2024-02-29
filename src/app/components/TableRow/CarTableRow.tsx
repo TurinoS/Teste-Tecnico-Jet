@@ -6,6 +6,8 @@ interface TableRowProps {
 
 export default function CarTableRow({ children }: TableRowProps) {
   return (
-    <div className="table-row-group text-sm text-gray-900">{children}</div>
+    <div className="relative flex mx-auto md:table-row-group text-sm text-gray-900">
+      {children}
+    </div>
   );
 }

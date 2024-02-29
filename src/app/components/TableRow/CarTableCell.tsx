@@ -8,10 +8,12 @@ interface TableRowProps {
 
 export default function CarTableCell({ children, className }: TableRowProps) {
   return (
-    <div
-      className={twMerge("table-cell border-b-2 border-gray-200", className)}
-    >
-      <div className="flex items-center gap-2 p-4 h-12">{children}</div>
+    <div className="md:table-cell border-b-2 border-gray-200 pb-1">
+      <div
+        className={twMerge("flex items-center gap-2 md:p-4 md:h-12", className)}
+      >
+        {children}
+      </div>
     </div>
   );
 }

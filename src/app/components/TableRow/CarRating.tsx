@@ -1,10 +1,13 @@
 import { FaStar } from "react-icons/fa";
 
-export default function CarRating() {
-  return (
-    <div className="flex translate-y-1">
-      <FaStar className="text-lg" />
-      <FaStar className="text-lg" />
-    </div>
-  );
+interface CarRatingProps {
+  rating: number;
+}
+
+export default function CarRating({ rating }: CarRatingProps) {
+  const stars = Array.from({ length: rating }, (_, index) => (
+    <FaStar key={index} className="text-lg" />
+  ));
+
+  return <div className="flex translate-y-1">{stars}</div>;
 }
