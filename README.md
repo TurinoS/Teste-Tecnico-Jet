@@ -4,10 +4,9 @@ Planejamento do projeto:
 
 - Desktop
 
-- [ ] Estilização do container;
-- [ ] Estilização das divs de "tabela";
-- [ ] Setar os nomes dos headers da tabela;
-- [ ] Estilização do corpo da tabela;
+- [x] Criação e estilização do container;
+- [ ] Criação e estilização do header da "tabela";
+- [ ] Criação e estilização das linhas com os dados;
 
 - Mobile
 

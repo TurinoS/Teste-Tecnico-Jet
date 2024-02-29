@@ -1,7 +1,11 @@
+import Container from "./components/Container";
+
 export default function Home() {
   return (
-    <main className="p-8 min-h-screen">
-      <h1>Hello, World!</h1>
+    <main>
+      <Container>
+        <h1 className="px-4 py-1">Hello, World!</h1>
+      </Container>
     </main>
   );
 }
